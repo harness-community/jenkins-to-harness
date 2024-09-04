@@ -1,0 +1,225 @@
+{
+  "traceId": "caf0a8752dd5d2a7513c67dc398dc2ac",
+  "spanId": "921c0bd808f82101",
+  "harnessVersion": "2.18.12-SNAPSHOT",
+  "children": [
+    {
+      "spanId": "6c06a4630db25d94",
+      "traceId": "caf0a8752dd5d2a7513c67dc398dc2ac",
+      "parent": "op-ansible",
+      "all-info": "span(name: Phase: Finalise, spanId: 6c06a4630db25d94, parentSpanId: 921c0bd808f82101, traceId: caf0a8752dd5d2a7513c67dc398dc2ac, attr: )",
+      "name": "op-ansible #6",
+      "attributesMap": {},
+      "type": "Run Phase Span",
+      "parentSpanId": "921c0bd808f82101",
+      "spanName": "Phase: Finalise"
+    },
+    {
+      "spanId": "d3e605d06744dc20",
+      "traceId": "caf0a8752dd5d2a7513c67dc398dc2ac",
+      "parent": "op-ansible",
+      "all-info": "span(name: Phase: Run, spanId: d3e605d06744dc20, parentSpanId: 921c0bd808f82101, traceId: caf0a8752dd5d2a7513c67dc398dc2ac, attr: )",
+      "children": [
+        {
+          "spanId": "feca960454aefac5",
+          "traceId": "caf0a8752dd5d2a7513c67dc398dc2ac",
+          "parent": "op-ansible",
+          "all-info": "span(name: Agent, spanId: feca960454aefac5, parentSpanId: d3e605d06744dc20, traceId: caf0a8752dd5d2a7513c67dc398dc2ac, attr: harness-attribute-extra-pip: io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@25ec3b3f:io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@25ec3b3f;harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.TimingAction@3b33f418:org.jenkinsci.plugins.workflow.actions.TimingAction@3b33f418;harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.support.actions.LogStorageAction@5f2e1621:org.jenkinsci.plugins.workflow.support.actions.LogStorageAction@5f2e1621;harness-others:;jenkins.credentials.id:[org.jenkinsci.plugins.workflow.support.actions.LogStorageAction@5f2e1621, org.jenkinsci.plugins.workflow.actions.TimingAction@3b33f418, io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@15b9c38];jenkins.pipeline.step.id:3;jenkins.pipeline.step.name:agent;jenkins.pipeline.step.plugin.name:workflow-durable-task-step;jenkins.pipeline.step.plugin.version:1353.v1891a_b_01da_18;jenkins.pipeline.step.type:node;)",
+          "children": [
+            {
+              "spanId": "dd9fcad7680e7881",
+              "traceId": "caf0a8752dd5d2a7513c67dc398dc2ac",
+              "parent": "op-ansible",
+              "all-info": "span(name: Stage: null, spanId: dd9fcad7680e7881, parentSpanId: feca960454aefac5, traceId: caf0a8752dd5d2a7513c67dc398dc2ac, attr: harness-attribute-extra-pip: io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@40654c7b:io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@40654c7b;harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.BodyInvocationAction@158e1bb0:org.jenkinsci.plugins.workflow.actions.BodyInvocationAction@158e1bb0;harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.TimingAction@64ceb90d:org.jenkinsci.plugins.workflow.actions.TimingAction@64ceb90d;harness-others:;jenkins.pipeline.step.type:node;)",
+              "name": "op-ansible #6",
+              "attributesMap": {
+                "harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.TimingAction@64ceb90d": "org.jenkinsci.plugins.workflow.actions.TimingAction@64ceb90d",
+                "harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.BodyInvocationAction@158e1bb0": "org.jenkinsci.plugins.workflow.actions.BodyInvocationAction@158e1bb0",
+                "harness-others": "",
+                "jenkins.pipeline.step.type": "node",
+                "harness-attribute-extra-pip: io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@40654c7b": "io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@40654c7b"
+              },
+              "type": "Run Phase Span",
+              "parentSpanId": "feca960454aefac5",
+              "spanName": "Stage: null"
+            },
+            {
+              "spanId": "3576f64bfef342c9",
+              "traceId": "caf0a8752dd5d2a7513c67dc398dc2ac",
+              "parent": "op-ansible",
+              "all-info": "span(name: Stage: null, spanId: 3576f64bfef342c9, parentSpanId: feca960454aefac5, traceId: caf0a8752dd5d2a7513c67dc398dc2ac, attr: harness-attribute:{\n  \"name\" : \"Hello\"\n};harness-attribute-extra-pip: io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@63a52e22:io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@63a52e22;harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.TimingAction@3362703b:org.jenkinsci.plugins.workflow.actions.TimingAction@3362703b;harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.support.actions.LogStorageAction@1d83b30:org.jenkinsci.plugins.workflow.support.actions.LogStorageAction@1d83b30;harness-others:-name-field org.jenkinsci.plugins.workflow.support.steps.StageStep name-org.jenkinsci.plugins.workflow.support.steps.StageStep.name-class java.lang.String-concurrency-field org.jenkinsci.plugins.workflow.support.steps.StageStep concurrency-org.jenkinsci.plugins.workflow.support.steps.StageStep.concurrency-class java.lang.Integer;jenkins.pipeline.step.type:stage;)",
+              "children": [
+                {
+                  "spanId": "334be26ed47928e3",
+                  "traceId": "caf0a8752dd5d2a7513c67dc398dc2ac",
+                  "parent": "op-ansible",
+                  "all-info": "span(name: Stage: Hello, spanId: 334be26ed47928e3, parentSpanId: 3576f64bfef342c9, traceId: caf0a8752dd5d2a7513c67dc398dc2ac, attr: harness-attribute-extra-pip: io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@15ceedba:io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@15ceedba;harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.BodyInvocationAction@76f66c73:org.jenkinsci.plugins.workflow.actions.BodyInvocationAction@76f66c73;harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.LabelAction@61ad08e6:org.jenkinsci.plugins.workflow.actions.LabelAction@61ad08e6;harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.TimingAction@676df6f4:org.jenkinsci.plugins.workflow.actions.TimingAction@676df6f4;harness-others:-name-field org.jenkinsci.plugins.workflow.support.steps.StageStep name-org.jenkinsci.plugins.workflow.support.steps.StageStep.name-class java.lang.String-concurrency-field org.jenkinsci.plugins.workflow.support.steps.StageStep concurrency-org.jenkinsci.plugins.workflow.support.steps.StageStep.concurrency-class java.lang.Integer;jenkins.pipeline.step.id:6;jenkins.pipeline.step.name:Hello;jenkins.pipeline.step.plugin.name:pipeline-stage-step;jenkins.pipeline.step.plugin.version:312.v8cd10304c27a_;jenkins.pipeline.step.type:stage;)",
+                  "children": [
+                    {
+                      "spanId": "5ffb6f01d8c3c880",
+                      "traceId": "caf0a8752dd5d2a7513c67dc398dc2ac",
+                      "parent": "op-ansible",
+                      "all-info": "span(name: Stage: null, spanId: 5ffb6f01d8c3c880, parentSpanId: 334be26ed47928e3, traceId: caf0a8752dd5d2a7513c67dc398dc2ac, attr: harness-attribute-extra-pip: io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@5eb7dfd9:io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@5eb7dfd9;harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.BodyInvocationAction@7c610f6a:org.jenkinsci.plugins.workflow.actions.BodyInvocationAction@7c610f6a;harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.TimingAction@4c6f9e77:org.jenkinsci.plugins.workflow.actions.TimingAction@4c6f9e77;harness-others:-name-field org.jenkinsci.plugins.workflow.support.steps.StageStep name-org.jenkinsci.plugins.workflow.support.steps.StageStep.name-class java.lang.String-concurrency-field org.jenkinsci.plugins.workflow.support.steps.StageStep concurrency-org.jenkinsci.plugins.workflow.support.steps.StageStep.concurrency-class java.lang.Integer;jenkins.pipeline.step.type:stage;)",
+                      "name": "op-ansible #6",
+                      "attributesMap": {
+                        "harness-others": "-name-field org.jenkinsci.plugins.workflow.support.steps.StageStep name-org.jenkinsci.plugins.workflow.support.steps.StageStep.name-class java.lang.String-concurrency-field org.jenkinsci.plugins.workflow.support.steps.StageStep concurrency-org.jenkinsci.plugins.workflow.support.steps.StageStep.concurrency-class java.lang.Integer",
+                        "jenkins.pipeline.step.type": "stage",
+                        "harness-attribute-extra-pip: io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@5eb7dfd9": "io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@5eb7dfd9",
+                        "harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.BodyInvocationAction@7c610f6a": "org.jenkinsci.plugins.workflow.actions.BodyInvocationAction@7c610f6a",
+                        "harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.TimingAction@4c6f9e77": "org.jenkinsci.plugins.workflow.actions.TimingAction@4c6f9e77"
+                      },
+                      "type": "Run Phase Span",
+                      "parentSpanId": "334be26ed47928e3",
+                      "spanName": "Stage: null"
+                    },
+                    {
+                      "spanId": "2e2ca0aaf66e1255",
+                      "traceId": "caf0a8752dd5d2a7513c67dc398dc2ac",
+                      "parent": "op-ansible",
+                      "all-info": "span(name: sh, spanId: 2e2ca0aaf66e1255, parentSpanId: 334be26ed47928e3, traceId: caf0a8752dd5d2a7513c67dc398dc2ac, attr: ci.pipeline.run.user:SYSTEM;harness-attribute:{\n  \"script\" : \"echo \\\"Hello World\\\"\"\n};harness-attribute-extra-pip: io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@3e400398:io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@3e400398;harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.TimingAction@d887ad5:org.jenkinsci.plugins.workflow.actions.TimingAction@d887ad5;harness-others:-WATCHING_RECURRENCE_PERIOD-staticField org.jenkinsci.plugins.workflow.steps.durable_task.DurableTaskStep WATCHING_RECURRENCE_PERIOD-org.jenkinsci.plugins.workflow.steps.durable_task.DurableTaskStep.WATCHING_RECURRENCE_PERIOD-long-USE_WATCHING-staticField org.jenkinsci.plugins.workflow.steps.durable_task.DurableTaskStep USE_WATCHING-org.jenkinsci.plugins.workflow.steps.durable_task.DurableTaskStep.USE_WATCHING-boolean-REMOTE_TIMEOUT-staticField org.jenkinsci.plugins.workflow.steps.durable_task.DurableTaskStep REMOTE_TIMEOUT-org.jenkinsci.plugins.workflow.steps.durable_task.DurableTaskStep.REMOTE_TIMEOUT-long;jenkins.pipeline.step.id:7;jenkins.pipeline.step.name:Shell Script;jenkins.pipeline.step.plugin.name:workflow-durable-task-step;jenkins.pipeline.step.plugin.version:1353.v1891a_b_01da_18;jenkins.pipeline.step.type:sh;)",
+                      "name": "op-ansible #6",
+                      "attributesMap": {
+                        "harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.TimingAction@d887ad5": "org.jenkinsci.plugins.workflow.actions.TimingAction@d887ad5",
+                        "harness-others": "-WATCHING_RECURRENCE_PERIOD-staticField org.jenkinsci.plugins.workflow.steps.durable_task.DurableTaskStep WATCHING_RECURRENCE_PERIOD-org.jenkinsci.plugins.workflow.steps.durable_task.DurableTaskStep.WATCHING_RECURRENCE_PERIOD-long-USE_WATCHING-staticField org.jenkinsci.plugins.workflow.steps.durable_task.DurableTaskStep USE_WATCHING-org.jenkinsci.plugins.workflow.steps.durable_task.DurableTaskStep.USE_WATCHING-boolean-REMOTE_TIMEOUT-staticField org.jenkinsci.plugins.workflow.steps.durable_task.DurableTaskStep REMOTE_TIMEOUT-org.jenkinsci.plugins.workflow.steps.durable_task.DurableTaskStep.REMOTE_TIMEOUT-long",
+                        "jenkins.pipeline.step.name": "Shell Script",
+                        "ci.pipeline.run.user": "SYSTEM",
+                        "jenkins.pipeline.step.id": "7",
+                        "jenkins.pipeline.step.type": "sh",
+                        "harness-attribute-extra-pip: io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@3e400398": "io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@3e400398",
+                        "harness-attribute": "{\n  \"script\" : \"echo \\\"Hello World\\\"\"\n}",
+                        "jenkins.pipeline.step.plugin.name": "workflow-durable-task-step",
+                        "jenkins.pipeline.step.plugin.version": "1353.v1891a_b_01da_18"
+                      },
+                      "type": "Run Phase Span",
+                      "parentSpanId": "334be26ed47928e3",
+                      "parameterMap": { "script": "echo \"Hello World\"" },
+                      "spanName": "sh"
+                    }
+                  ],
+                  "name": "op-ansible #6",
+                  "attributesMap": {
+                    "harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.BodyInvocationAction@76f66c73": "org.jenkinsci.plugins.workflow.actions.BodyInvocationAction@76f66c73",
+                    "harness-others": "-name-field org.jenkinsci.plugins.workflow.support.steps.StageStep name-org.jenkinsci.plugins.workflow.support.steps.StageStep.name-class java.lang.String-concurrency-field org.jenkinsci.plugins.workflow.support.steps.StageStep concurrency-org.jenkinsci.plugins.workflow.support.steps.StageStep.concurrency-class java.lang.Integer",
+                    "jenkins.pipeline.step.name": "Hello",
+                    "jenkins.pipeline.step.id": "6",
+                    "harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.LabelAction@61ad08e6": "org.jenkinsci.plugins.workflow.actions.LabelAction@61ad08e6",
+                    "jenkins.pipeline.step.type": "stage",
+                    "harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.TimingAction@676df6f4": "org.jenkinsci.plugins.workflow.actions.TimingAction@676df6f4",
+                    "jenkins.pipeline.step.plugin.name": "pipeline-stage-step",
+                    "harness-attribute-extra-pip: io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@15ceedba": "io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@15ceedba",
+                    "jenkins.pipeline.step.plugin.version": "312.v8cd10304c27a_"
+                  },
+                  "type": "Run Phase Span",
+                  "parentSpanId": "3576f64bfef342c9",
+                  "spanName": "Stage: Hello"
+                },
+                {
+                  "spanId": "d57f6973c3db3654",
+                  "traceId": "caf0a8752dd5d2a7513c67dc398dc2ac",
+                  "parent": "op-ansible",
+                  "all-info": "span(name: Stage: null, spanId: d57f6973c3db3654, parentSpanId: 3576f64bfef342c9, traceId: caf0a8752dd5d2a7513c67dc398dc2ac, attr: harness-attribute-extra-pip: io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@569e2bdb:io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@569e2bdb;harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.TimingAction@1d7ba471:org.jenkinsci.plugins.workflow.actions.TimingAction@1d7ba471;harness-others:-name-field org.jenkinsci.plugins.workflow.support.steps.StageStep name-org.jenkinsci.plugins.workflow.support.steps.StageStep.name-class java.lang.String-concurrency-field org.jenkinsci.plugins.workflow.support.steps.StageStep concurrency-org.jenkinsci.plugins.workflow.support.steps.StageStep.concurrency-class java.lang.Integer;jenkins.pipeline.step.type:stage;)",
+                  "name": "op-ansible #6",
+                  "attributesMap": {
+                    "harness-others": "-name-field org.jenkinsci.plugins.workflow.support.steps.StageStep name-org.jenkinsci.plugins.workflow.support.steps.StageStep.name-class java.lang.String-concurrency-field org.jenkinsci.plugins.workflow.support.steps.StageStep concurrency-org.jenkinsci.plugins.workflow.support.steps.StageStep.concurrency-class java.lang.Integer",
+                    "jenkins.pipeline.step.type": "stage",
+                    "harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.TimingAction@1d7ba471": "org.jenkinsci.plugins.workflow.actions.TimingAction@1d7ba471",
+                    "harness-attribute-extra-pip: io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@569e2bdb": "io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@569e2bdb"
+                  },
+                  "type": "Run Phase Span",
+                  "parentSpanId": "3576f64bfef342c9",
+                  "spanName": "Stage: null"
+                }
+              ],
+              "name": "op-ansible #6",
+              "attributesMap": {
+                "harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.TimingAction@3362703b": "org.jenkinsci.plugins.workflow.actions.TimingAction@3362703b",
+                "harness-attribute-extra-pip: io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@63a52e22": "io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@63a52e22",
+                "harness-others": "-name-field org.jenkinsci.plugins.workflow.support.steps.StageStep name-org.jenkinsci.plugins.workflow.support.steps.StageStep.name-class java.lang.String-concurrency-field org.jenkinsci.plugins.workflow.support.steps.StageStep concurrency-org.jenkinsci.plugins.workflow.support.steps.StageStep.concurrency-class java.lang.Integer",
+                "jenkins.pipeline.step.type": "stage",
+                "harness-attribute": "{\n  \"name\" : \"Hello\"\n}",
+                "harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.support.actions.LogStorageAction@1d83b30": "org.jenkinsci.plugins.workflow.support.actions.LogStorageAction@1d83b30"
+              },
+              "type": "Run Phase Span",
+              "parentSpanId": "feca960454aefac5",
+              "parameterMap": { "name": "Hello" },
+              "spanName": "Stage: null"
+            },
+            {
+              "spanId": "f910664cef4e5c60",
+              "traceId": "caf0a8752dd5d2a7513c67dc398dc2ac",
+              "parent": "op-ansible",
+              "all-info": "span(name: Stage: null, spanId: f910664cef4e5c60, parentSpanId: feca960454aefac5, traceId: caf0a8752dd5d2a7513c67dc398dc2ac, attr: harness-attribute-extra-pip: io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@63209b4a:io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@63209b4a;harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.TimingAction@6d9f7503:org.jenkinsci.plugins.workflow.actions.TimingAction@6d9f7503;harness-others:;jenkins.pipeline.step.type:node;)",
+              "name": "op-ansible #6",
+              "attributesMap": {
+                "harness-attribute-extra-pip: io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@63209b4a": "io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@63209b4a",
+                "harness-others": "",
+                "jenkins.pipeline.step.type": "node",
+                "harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.TimingAction@6d9f7503": "org.jenkinsci.plugins.workflow.actions.TimingAction@6d9f7503"
+              },
+              "type": "Run Phase Span",
+              "parentSpanId": "feca960454aefac5",
+              "spanName": "Stage: null"
+            }
+          ],
+          "name": "op-ansible #6",
+          "attributesMap": {
+            "harness-others": "",
+            "jenkins.pipeline.step.name": "agent",
+            "jenkins.pipeline.step.id": "3",
+            "harness-attribute-extra-pip: io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@25ec3b3f": "io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@25ec3b3f",
+            "harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.support.actions.LogStorageAction@5f2e1621": "org.jenkinsci.plugins.workflow.support.actions.LogStorageAction@5f2e1621",
+            "jenkins.pipeline.step.type": "node",
+            "harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.TimingAction@3b33f418": "org.jenkinsci.plugins.workflow.actions.TimingAction@3b33f418",
+            "jenkins.credentials.id": "[org.jenkinsci.plugins.workflow.support.actions.LogStorageAction@5f2e1621, org.jenkinsci.plugins.workflow.actions.TimingAction@3b33f418, io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@15b9c38]",
+            "jenkins.pipeline.step.plugin.name": "workflow-durable-task-step",
+            "jenkins.pipeline.step.plugin.version": "1353.v1891a_b_01da_18"
+          },
+          "type": "Run Phase Span",
+          "parentSpanId": "d3e605d06744dc20",
+          "spanName": "Agent"
+        },
+        {
+          "spanId": "365e5509a4aae3a0",
+          "traceId": "caf0a8752dd5d2a7513c67dc398dc2ac",
+          "parent": "op-ansible",
+          "all-info": "span(name: Agent Allocation, spanId: 365e5509a4aae3a0, parentSpanId: d3e605d06744dc20, traceId: caf0a8752dd5d2a7513c67dc398dc2ac, attr: harness-attribute-extra-pip: FlowNodeMonitoringAction{traceId='caf0a8752dd5d2a7513c67dc398dc2ac', spanId='feca960454aefac5', span.name='Agent'}:FlowNodeMonitoringAction{traceId='caf0a8752dd5d2a7513c67dc398dc2ac', spanId='feca960454aefac5', span.name='Agent'};harness-attribute-extra-pip: io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@37e71b66:io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@37e71b66;harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.TimingAction@3b33f418:org.jenkinsci.plugins.workflow.actions.TimingAction@3b33f418;harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.support.actions.LogStorageAction@5f2e1621:org.jenkinsci.plugins.workflow.support.actions.LogStorageAction@5f2e1621;harness-others:;jenkins.pipeline.step.id:3;jenkins.pipeline.step.name:agent.allocate;jenkins.pipeline.step.plugin.name:workflow-durable-task-step;jenkins.pipeline.step.plugin.version:1353.v1891a_b_01da_18;jenkins.pipeline.step.type:node;)",
+          "name": "op-ansible #6",
+          "attributesMap": {
+            "harness-attribute-extra-pip: FlowNodeMonitoringAction{traceId='caf0a8752dd5d2a7513c67dc398dc2ac', spanId='feca960454aefac5', span.name='Agent'}": "FlowNodeMonitoringAction{traceId='caf0a8752dd5d2a7513c67dc398dc2ac', spanId='feca960454aefac5', span.name='Agent'}",
+            "harness-attribute-extra-pip: io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@37e71b66": "io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@37e71b66",
+            "harness-others": "",
+            "jenkins.pipeline.step.name": "agent.allocate",
+            "jenkins.pipeline.step.id": "3",
+            "harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.support.actions.LogStorageAction@5f2e1621": "org.jenkinsci.plugins.workflow.support.actions.LogStorageAction@5f2e1621",
+            "jenkins.pipeline.step.type": "node",
+            "harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.TimingAction@3b33f418": "org.jenkinsci.plugins.workflow.actions.TimingAction@3b33f418",
+            "jenkins.pipeline.step.plugin.name": "workflow-durable-task-step",
+            "jenkins.pipeline.step.plugin.version": "1353.v1891a_b_01da_18"
+          },
+          "type": "Run Phase Span",
+          "parentSpanId": "d3e605d06744dc20",
+          "spanName": "Agent Allocation"
+        }
+      ],
+      "name": "op-ansible #6",
+      "attributesMap": {},
+      "type": "Run Phase Span",
+      "parentSpanId": "921c0bd808f82101",
+      "spanName": "Phase: Run"
+    },
+    {
+      "spanId": "2b9cc6b69071f65d",
+      "traceId": "caf0a8752dd5d2a7513c67dc398dc2ac",
+      "parent": "op-ansible",
+      "all-info": "span(name: Phase: Start, spanId: 2b9cc6b69071f65d, parentSpanId: 921c0bd808f82101, traceId: caf0a8752dd5d2a7513c67dc398dc2ac, attr: )",
+      "name": "op-ansible #6",
+      "attributesMap": {},
+      "type": "Run Phase Span",
+      "parentSpanId": "921c0bd808f82101",
+      "spanName": "Phase: Start"
+    }
+  ],
+  "name": "op-ansible #6",
+  "parentSpanId": "0000000000000000",
+  "spanName": "op-ansible #6"
+}

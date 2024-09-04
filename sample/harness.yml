@@ -1,0 +1,38 @@
+pipeline:
+  identifier: default
+  name: default
+  orgIdentifier: default
+  projectIdentifier: default
+  properties:
+    ci:
+      codebase:
+        build: <+input>
+  stages:
+    - stage:
+        identifier: build
+        name: build
+        spec:
+          cloneCodebase: true
+          execution:
+            steps:
+              - stepGroup:
+                  identifier: Stage__null3576f6
+                  name: Hello
+                  steps:
+                    - step:
+                        identifier: sh2e2ca0
+                        name: sh
+                        spec:
+                          command: echo "Hello World"
+                          image: alpine
+                          shell: Sh
+                        timeout: ""
+                        type: Run
+                  timeout: ""
+          platform:
+            arch: Amd64
+            os: Linux
+          runtime:
+            spec: {}
+            type: Cloud
+        type: CI
